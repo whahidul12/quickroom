@@ -78,7 +78,7 @@ export default function Home() {
             </div>
             <button
               onClick={() => navigator.clipboard.writeText(url)}
-              className="p-2 rounded-md text-sm font-medium text-white bg-blue-600 hover:bg-blue-700  disabled:cursor-not-allowed transition-colors"
+              className="p-2 min-w-14 rounded-md text-sm font-medium text-white bg-blue-600 hover:bg-blue-700  disabled:cursor-not-allowed transition-colors"
             >
               Copy
             </button>
