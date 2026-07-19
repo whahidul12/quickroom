@@ -23,5 +23,5 @@ export async function verifyPassword(roomId, password) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ password }),
   });
-  return res.json(); // this will give me a status ["success" or "failed"]
+  return res.json(); // this will give me a status ["success" <<<True or False>>>]
 }

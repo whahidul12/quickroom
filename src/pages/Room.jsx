@@ -9,8 +9,8 @@ export default function Room() {
   const [notFound, setNotFound] = useState(false);
   const [unlocked, setUnlocked] = useState(false);
 
-  const [password, setPassword] = useState(""); // confirmed hobar pore ei password diye ws join korbe
   const [username, setUsername] = useState(""); // confirmed hobar pore ei name diye ws join korbe
+  const [password, setPassword] = useState(""); // confirmed hobar pore ei password diye ws join korbe
 
   const [inputName, setInputName] = useState("");
   const [inputPassword, setInputPassword] = useState("");
